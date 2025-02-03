@@ -11,6 +11,9 @@ interface Product {
   slug: string;
   price: number;
   imageUrl: string;
+  
+  
+  
   description: string;
   material: string;
   dimensions: string;
