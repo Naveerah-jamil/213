@@ -42,13 +42,13 @@ const Navbar: React.FC = () => {
           <Link href="/LogIn" className="text-sm md:text-lg">Log in</Link>
 
           {/* Cart Link */}
-          <Link href="/card" className="flex items-center space-x-2 text-sm md:text-lg">
+          <Link href="/Cart" className="flex items-center space-x-2 text-sm md:text-lg">
             <MdShoppingCart />
             <span>{cartItems.length}</span>
           </Link>
 
           {/* Wishlist Link */}
-          <Link href="/wishlist" className="text-sm md:text-lg">
+          <Link href="/Wishlist" className="text-sm md:text-lg">
             <span>Wishlist</span>
             <span>({wishlistItems.length})</span> {/* Show number of items in wishlist */}
           </Link>
