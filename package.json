@@ -10,6 +10,8 @@
     "migrate": "node scripts/migrate.mjs"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.11.0",
+    "@reduxjs/toolkit": "^2.5.1",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.71.2",
     "dotenv": "^16.4.7",
